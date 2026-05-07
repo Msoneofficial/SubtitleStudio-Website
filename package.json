@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Subtitle Studio - Open Source Subtitle Editor Website",
   "scripts": {
-    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css",
+    "build": "mkdir -p dist/src/ && cp index.html dist/ && cp -r src/images dist/src/images && tailwindcss -i ./src/styles.css -o ./dist/styles.css",
     "dev": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
   },
   "devDependencies": {
