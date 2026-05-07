@@ -1,0 +1,12 @@
+{
+  "name": "subtitle-studio-website",
+  "version": "1.0.0",
+  "description": "Subtitle Studio - Open Source Subtitle Editor Website",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
